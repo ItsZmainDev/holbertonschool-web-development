@@ -181,3 +181,53 @@ main {
     font-weight: 400;
     text-align: center;
 }
+
+.part_1_testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #c271ff;
+    width: 100%;
+    height: 392px;
+}
+
+.part_1_testimonials .main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    padding: 60px 100px;
+    width: 80%;
+    color: white;
+}
+
+.part_1_testimonials .main img {
+    width: 160px;
+}
+
+.part_1_testimonials .main blockquote {
+    font-family: SourceSansPro;
+    font-weight: 300;
+    font-size: 22px;
+    padding-bottom: 25px;
+    color: white;
+    text-align: left;
+}
+
+.part_1_testimonials .main .text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.part_1_testimonials .main .text .name {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.part_1_testimonials .main .text .occupation {
+    font-weight: 300;
+    font-size: 22px;
+    font-style: italic;
+}
+
