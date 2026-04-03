@@ -100,7 +100,7 @@ main {
     font-size: 120px;
 }
 
-.hero .title span {
+.hero .title p {
     width: 100%;
     max-width: 250px;
     text-align: justify;
@@ -109,7 +109,7 @@ main {
     font-weight: 700;
 }
 
-.hero .title span::after {
+.hero .title p::after {
     content: "";
     display: inline-block;
     width: 100%;
@@ -176,7 +176,7 @@ main {
     font-size: 18px;
 }
 
-.hero .peoples .people span {
+.hero .peoples .people p {
     font-family: SourceSansPro;
     font-weight: 400;
     text-align: center;
@@ -266,7 +266,7 @@ main {
     width: 240px;
 }
 
-.part_2_tutorials .tutorials .tutorial span {
+.part_2_tutorials .tutorials .tutorial p {
     color: rgba(7, 22, 41, 0.5);
     text-align: left;
     width: 240px;
@@ -308,7 +308,7 @@ main {
     width: 15px;
 }
 
-.part_2_tutorials .tutorials .tutorial .rating span {
+.part_2_tutorials .tutorials .tutorial .rating p {
     color: #c271ff;
     text-align: right;
 }
@@ -352,7 +352,7 @@ main {
     font-weight: 500;
 }
 
-.part_3_free_membership .memberships .membership span {
+.part_3_free_membership .memberships .membership p {
     font-size: 14px;
     font-weight: 300;
     line-height: 26px;
@@ -382,7 +382,7 @@ main {
 
 .part_4_faq h1,
 .part_4_faq h2,
-.part_4_faq span {
+.part_4_faq p {
     color: #071629;
 }
 
@@ -398,7 +398,7 @@ main {
     text-align: left;
 }
 
-.part_4_faq span {
+.part_4_faq p {
     color: rgba(7, 22, 41, 0.5);
     font-size: 14px;
     font-weight: 500;
@@ -463,7 +463,7 @@ footer .container .socials {
     gap: 15px;
 }
 
-footer .container span {
+footer .container p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 12px;
     font-weight: 500;
